@@ -1,7 +1,8 @@
-body {
+html body {
     font-family: 'Heebo', sans-serif;
     margin:0;
     padding:0;
+    height:100vh;
 }
 
 .bg {
@@ -76,13 +77,12 @@ li.contact {
 .mainSection {
     box-sizing: border-box;
     margin-top:20px;
-    margin-bottom:90px;
     clear:both;
     background: #ffffff;
     max-width: 56%;
     position: relative;
     left:22%;
-    padding:20px;
+    padding:20px 20px 60px 20px;
     line-height: 35px;
     font-size: 17px;
     color:#777777;
@@ -100,9 +100,6 @@ li.contact {
     margin-right:20px;
 }
 
-.copyright {
-   
-}
 
 input[type=text]{
     padding: 14px 10px;
@@ -151,7 +148,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .footer {
-    margin-top:-30px;
+    margin-top:-60px;
     border-top:solid 5px #4aaaa5;
     background: #777777;
     padding-top:30px;
