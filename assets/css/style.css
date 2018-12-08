@@ -101,12 +101,7 @@ li.contact {
 }
 
 .copyright {
-    border-top:solid 5px #4aaaa5;
-    background: #777777;
-    padding-top:30px;
-    text-align: center;
-    color:white;
-    height:30px;
+   
 }
 
 input[type=text]{
@@ -149,4 +144,18 @@ textarea {
 a, a:visited, a:hover, a:active {
     color: inherit;
     text-decoration: none;
-  }
+}
+
+.wrapper {
+    min-height:100%;
+}
+
+.footer {
+    margin-top:-30px;
+    border-top:solid 5px #4aaaa5;
+    background: #777777;
+    padding-top:30px;
+    text-align: center;
+    color:white;
+    height:30px;
+}
